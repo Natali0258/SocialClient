@@ -1,3 +1,12 @@
+# Dependecies
+`axios - для http-запросов`
+`react-router-dom - для маршрутизации проекта`
+`react-toolkit / react-redux - state manager - бизнес логика`
+`sass - для задания стилей`
+`react-router-dom - для маршрутизации проекта`
+`material ui - для работы с ui компонентами`
+`react-icons - для иконок`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

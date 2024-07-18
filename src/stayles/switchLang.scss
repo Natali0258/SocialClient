@@ -1,0 +1,24 @@
+.switchLangBtn{
+    width: 36px;
+    height: 36px;
+
+    transition: all 0.2s;
+
+    color: #919191;
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+    background: #F1F1F1;
+
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 20px;
+
+    cursor: pointer;
+}
+.switchLangBtn.active{
+    color: black;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14);
+}

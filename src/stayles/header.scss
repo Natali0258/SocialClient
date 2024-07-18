@@ -1,0 +1,70 @@
+.header{
+    background: #222222;
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__left{
+        display: flex;
+        align-items: center;
+        column-gap: 35px;
+    }
+    &__search{
+        position: relative;
+        &-icon{
+            position: absolute;
+            color: #222222;
+            font-size: 20px;
+            cursor: pointer;
+            top: 6px;
+            left: 8px;
+        }
+        &-input{
+            width: 230px;
+            background: #424242;
+            border-radius: 8px;
+            height: 32px;
+            border: none;
+            padding: 0 12px 0 34px;
+        }
+    }
+    &__right{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+    &__notif{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+    }
+    &__user{
+        position: relative;
+        padding: 15px 10px;
+        display: flex;
+        align-items: center;
+        &:hover{
+            background: #424242;
+            cursor: pointer;
+        }
+        &-icon{
+            position: absolute;
+            color: $black;
+            font-size: 25px;
+            top: 19px;
+            left: 18px;
+        }
+        &-circle{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgb(160, 158, 158);
+        }
+        &-arrow{
+            margin-top: 2px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+}
